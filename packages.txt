@@ -1,1 +1,3 @@
 blender
+libsm6
+libxrender1
