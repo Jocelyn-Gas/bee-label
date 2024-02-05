@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bee-label"
+version = "0.1.0"
+description = "Generator of packaging images for honey company"
+authors = ["Jocelyn Gas <jocelyn.gas@dillygence.com>"]
+readme = "README.md"
+packages = [{ include = "bee_label", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+streamlit = "^1.31.0"
+svgutils = "^0.3.4"
+bpy = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
