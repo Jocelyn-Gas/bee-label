@@ -1,3 +1,7 @@
-blender
-libsm6
 libxrender1
+libxxf86vm-dev
+libxfixes-dev
+libxi-dev
+libxkbcommon-dev
+libsm-dev
+libgl-dev
