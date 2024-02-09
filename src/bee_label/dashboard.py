@@ -53,7 +53,6 @@ if streamlit.button("Générer l'image"):
         image_bytes= image_bytes.decode('utf-8')
         image_bytes= resize_svg(image_bytes, 2048)
         render_svg_to_png(image_bytes, "./label.png")
-        streamlit.image(Image.open("./label.png"))
     with streamlit.spinner("Génération de l'image finale..."):
         if size is None:
             raise ValueError("Aucune taille de pot sélectionnée")
