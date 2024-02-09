@@ -5,3 +5,4 @@ libxi-dev
 libxkbcommon-dev
 libsm-dev
 libgl-dev
+libpangocairo-1.0-0
